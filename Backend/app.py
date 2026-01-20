@@ -125,6 +125,7 @@ from ai_engine import generate_dynamic_profile
 import os
 from dotenv import load_dotenv
 load_dotenv()
+# os.environ["GOOGLE_API_KEY"] = "YOUR_PASTE_API_KEY_HERE"
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 # ------------------------------------
 
